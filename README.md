@@ -20,3 +20,15 @@ Just paste your raw notes and say something like:
 - "Post this to puttheplayerfirst.com"
 
 Claude will handle the rest — drafting, editing, and publishing.
+
+## Customisation
+
+This skill was built for [PutThePlayerFirst.com](https://puttheplayerfirst.com) — a studio focused on serious games and learning design. The writing style, voice, and WordPress URL are all specific to that context.
+
+If you're using this for your own blog, you'll want to customise:
+
+- **`references/default-writing-prompt.md`** — the most important file to change. Update the persona, tone, industry context, and any style rules to match your voice and audience.
+- **WordPress URL** — the skill will ask for this each time, but if you always post to the same site, you can hardcode it in `SKILL.md`.
+- **Word count and structure** — adjust the target length and narrative arc in the writing prompt to suit your content type (e.g. technical tutorials, thought leadership, product updates).
+
+The skill itself is designed to be general-purpose — the writing prompt is where all the personality lives.
